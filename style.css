@@ -33,6 +33,8 @@ body {
   .items {
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
   }
   
