@@ -35,6 +35,7 @@ let itemsArray = [
       newPrice: "1 698",
       bonusPrice: "1 596",
     },
+  
   ];
   
   let itemsDiv = document.getElementById("items");
