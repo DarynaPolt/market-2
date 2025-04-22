@@ -1,7 +1,7 @@
 let itemsArray = [
     {
       title: "Мотокоса 43",
-      image: "img/acumulatorobryskovach.png",
+      image: "img/1.png",
       partsPay6: true,
       partsPay8: true,
       oldPrice: "5 499",
@@ -10,7 +10,7 @@ let itemsArray = [
     },
     {
       title: "Електричний тример 110",
-      image: "img/electrogasonokosarka.png",
+      image: "img/2.png",
       partsPay6: false,
       partsPay8: true,
       oldPrice: "4 497",
@@ -19,7 +19,7 @@ let itemsArray = [
     },
     {
       title: "Електрична газонокосарка 32",
-      image: "img/electrotrumer.png",
+      image: "img/3.png",
       partsPay6: true,
       partsPay8: true,
       oldPrice: "4 497",
@@ -28,7 +28,7 @@ let itemsArray = [
     },
     {
       title: "Акумуляторний обприскувач 12 N",
-      image: "img/gasonokosarka.png",
+      image: "img/4.png",
       partsPay6: true,
       partsPay8: false,
       oldPrice: "2 190",
@@ -49,8 +49,8 @@ let itemsArray = [
             <img src="${item.image}" alt="${item.title}">
           </div>
           <div class="parts-pay">
-            ${item.partsPay6 ? '<div><img src="img-market/mono-lapka.png" alt="">6</div>' : ''}
-            ${item.partsPay8 ? '<div><img src="img-market/pb.png" alt="">8</div>' : ''}
+            ${item.partsPay6 ? '<div><img src="img/mono-lapka.png" alt="">6</div>' : ''}
+            ${item.partsPay8 ? '<div><img src="img/pb.png" alt="">8</div>' : ''}
           </div>
           <div class="price">
             <div><span>${item.oldPrice}</span><sup>грн</sup></div>
