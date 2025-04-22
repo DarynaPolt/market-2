@@ -33,20 +33,36 @@ body {
   letter-spacing: 1px;
 }
 
-.items {
+.content{
+  width: 624px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#items{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  min-height: 300px;
+  min-width: none;
+}
+
+.items {
+
   gap: 20px;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+
+
 }
 
 .item {
-  width: calc(50% - 10px);
-  min-width: 200px;
+
+width: 300px;
   max-width: 250px;
   min-height: auto;
   margin-bottom: 0;
@@ -116,6 +132,8 @@ body {
   margin-right: 10px;
 }
 
+
+
 .price div:first-child span {
   text-decoration-line: line-through;
 }
@@ -132,6 +150,10 @@ body {
 
 .price div:last-child sup {
   font-size: 0.8em;
+}
+
+.cupon {
+  color: black;
 }
 
 .bonus {
