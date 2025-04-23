@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 #items{
@@ -55,7 +55,7 @@ body {
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 
 }
@@ -152,11 +152,7 @@ width: 300px;
   font-size: 0.8em;
 }
 
-.cupon {
-  color: black;
-}
-
-.bonus {
+.price.bonus {
   background: rgb(253, 48, 48);
   color: white;
   border-radius: 5px;
@@ -164,22 +160,28 @@ width: 300px;
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
+  transition: background-color 0.3s ease; /
 }
 
-.bonus div:first-child {
-  width: auto;
-  font-size: 0.9em;
+.price.bonus:hover {
+  background-color: rgb(255, 104, 104); 
+  transform: scale(1.05);
+}
+
+.price.bonus div.cupon {
+  color: black !important; 
   margin-right: 5px;
 }
 
-.bonus div:last-child {
+.price.bonus div:last-child {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.bonus div:last-child sup {
+.price.bonus div:last-child sup {
   font-size: 0.7em;
 }
+
 
 .contacts {
   text-align: center;
