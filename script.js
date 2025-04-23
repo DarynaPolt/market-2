@@ -57,7 +57,7 @@ let itemsArray = [
             <div><span>${item.newPrice}</span><sup>грн</sup></div>
           </div>
           <div class="price bonus">
-            <div>ціна за купоном</div>
+          <div class="cupon">ціна за купоном</div>
             <div><span>${item.bonusPrice}</span><sup>грн</sup></div>
           </div>
         </div>
