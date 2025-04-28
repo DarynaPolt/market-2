@@ -106,6 +106,13 @@ width: 300px;
   margin-bottom: 10px;
 }
 
+.pay {
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+.pay:hover {
+  transform: scale(1.1); }
+
 .parts-pay img {
   height: 20px;
 }
@@ -125,6 +132,18 @@ width: 300px;
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  transition: transform 0.3s ease;
+}
+
+.price:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+}
+
+.price:active {
+  background-color: #f1f1f1;
+  transform: scale(0.95);
 }
 
 .price div:first-child {
@@ -133,8 +152,6 @@ width: 300px;
   color: #777;
   margin-right: 10px;
 }
-
-
 
 .price div:first-child span {
   text-decoration-line: line-through;
@@ -162,12 +179,17 @@ width: 300px;
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
-  transition: background-color 0.3s ease; /
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .price.bonus:hover {
   background-color: rgb(255, 104, 104); 
   transform: scale(1.05);
+}
+
+.price.bonus:active {
+  background-color: rgb(216, 70, 70); 
+  transform: scale(0.95);
 }
 
 .price.bonus div.cupon {
