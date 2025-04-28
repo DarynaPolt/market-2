@@ -48,8 +48,8 @@ if (itemsDiv) {
             <img src="${item.image}" alt="${item.title}">
           </div>
           <div class="parts-pay">
-    ${item.mono ? `<div><img src="img/mono-lapka.png" alt="">${item.mono}</div>` : ''}
-          ${item.pb ? `<div><img src="img/pb.png" alt="">${item.pb}</div>` : ''}
+    ${item.mono ? `<div class="pay"><img src="img/mono-lapka.png" alt="">${item.mono}</div>` : ''}
+          ${item.pb ? `<div class="pay"><img src="img/pb.png" alt="">${item.pb}</div>` : ''}
           </div>
           <div class="price">
             <div><span>${item.oldPrice}</span><sup>грн</sup></div>
