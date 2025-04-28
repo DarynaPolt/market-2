@@ -4,8 +4,8 @@
     <img src="img/1.png" alt="Мотокоса 43" />
   </div>
   <div class="parts-pay">
-    <div><img src="img/mono-lapka.png" alt="" />6</div>
-    <div><img src="img/pb.png" alt="" />8</div>
+    <div><img src="img/mono-lapka.png" alt="" />${item.mono}</div>
+    <div><img src="img/pb.png" alt="" />${item.pb}</div>
   </div>
   <div class="price">
     <div><span>5499</span><sup>грн</sup></div>
