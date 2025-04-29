@@ -126,6 +126,9 @@ width: 300px;
 }
 
 .price {
+  justify-content: center;
+  width: 200px;
+  height: 25px;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 8px 12px;
